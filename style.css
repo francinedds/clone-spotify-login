@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@300;400&display=swap');
+
+*body{
+    margin: 0;
+    padding: 0;
+    background-color: #dedede;
+}
+
+.container{
+    width: 420px;
+    height: 500px;
+    margin-top: 150px;
+    margin-left: 450px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #333333;
+    border-radius: 5px;
+}
+
+h1 i{
+   font-size: 40px;
+   margin-top: 50px;
+   margin-left: 140px;
+   margin-right: 5px;
+   text-align: center;
+   color: #31c43c;
+}
+
+h1{
+    font-family: 'Geologica', sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 90px;
+    margin-bottom: 1px;     
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.item{
+    font-family: 'Geologica', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+hr{
+    margin-top: 0px;
+    margin-left: 128px;
+    margin-bottom: 0px;
+    background-color: #31c43c;
+    width: 55px; 
+    border: 1px solid #31c43c;
+    border-radius: 1px;
+}
+
+.input_box{
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-bottom: 0px;
+}
+
+.input_box input{
+    padding: 20px;
+    margin: 5px;
+    width: 240px;
+    height: 3px;
+    font-family: 'Geologica', sans-serif;
+    border: 0;
+    outline: none;
+    border-radius: 40px;
+}
+
+.checkbox{
+    margin-top: 5px;
+    margin-left: 90px;
+    margin-bottom: 0px;
+    position:relative;
+    font-family: 'Geologica', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+button{
+    width: 280px;
+    height: 40px;
+    margin-top: -10px;
+    margin-left: 75px;
+    margin-bottom: 10px;
+    background-color: #31c43c;
+    font-family: 'Geologica', sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    border: 1px solid #333333;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.4;
+}
+
+.help a{
+    margin-left: 145px;
+    text-decoration: none;
+    font-family: 'Geologica', sans-serif;
+    color: #7e7e7e;
+}
+
+.help a:hover{
+    opacity: 0.4;
+}
